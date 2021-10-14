@@ -1,0 +1,25 @@
+1. Cout helyett cout.
+2. \n után egy idézőjel.
+3. !\n" előtt egy idézőjel.
+4. success szót idézőjelbe kell tenni.
+5. string res = 7 helyett: int res = 7;
+6. Hatodik, hetedik sorban v() helyett v[], valamint az if-ben != helyett =.
+7. A "cond" nem értelmezhető, ezért be kellett írni egy feltételt.
+8. Ahhoz hogy kiírjuk a "Success!"-t, a bool c -t true-ra kell írni.
+9. boo helyett bool, és <s helyett >s.
+10. s==fool helyett s!=fool.
+11. cout után 2db '<' kell (<<), s==fool helyett s!=fool.
+12. + helyett !=, cout után 2 < kell (<<).
+13. (Működik) A for ciklus után levesszük a pontosvesszőt, valamint a 0<v.size() helyett i<v.size().
+14. A for ciklus után levesszük a pontosvesszőt, valamint a i<=v.size() helyett i<v.size().
+15. i<6 helyett s.size(), mivel a Success nem 6db karakter (túl kevés).
+16. A "then" -t ki kell törölni, mivel a c++ nyelv nem értelmezi.
+17. char c helyett int c, mivel számot adtunk neki.
+18. i<10 helyett s.size(), mivel a Success nem 10db karakter (túl sok).
+19. A vector után kell egy <int>, és a for ciklus után nem kell a pontosvessző.
+20. A while ciklisban j++ helyett i++.
+21. double d = 5/(x-2) -t át kellett írni double d = 5.0/x + 2.0 -re, mivel lebegőpontos szám kell a double miatt, valamint az x értéke 0, tehát nem kivonunk belőle kettőt, hanem hozzáadunk, hogy kijöjjön az eredmény.
+22. String után ki kell törölni a <char> -t, valamint a for ciklusban i<=10 helyett s.size() kell, hogy minden karakter ki legyen írva helyesen.
+23. j nincs deklarálva, tehát int j=0; , valamint ++j helyett ++i kell, hogy eredmény legyen.
+24. Működik.
+25. cin helyett cout, mivel nem beolvasni akarjuk, hanem kiíratni.
