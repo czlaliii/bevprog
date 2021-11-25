@@ -22,7 +22,8 @@ void swap_r(int& a, int& b)
 	temp = a;
 	a = b;
 	b = temp;
-}*/		
+}
+*/		
 
 
 int main()
@@ -31,7 +32,7 @@ int main()
 	int y = 9;
 	swap_v(x,y);
 	swap_v(7,9);
-	cout << "The value of x is: " << x << endl << "The value of y is: " << y << endl;	
+	cout << "The value of x== " << x << endl << "The value of y== " << y << endl;	
 	
 	const int cx = 7;
 	const int cy = 9;
